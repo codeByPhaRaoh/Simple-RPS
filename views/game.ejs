@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Rock Paper Scissors</title>
+</head>
+
+<body>
+    <h1>Pierre's Simple Rock Paper Scissors Game</h1>
+    <form action="/game" method="POST">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="play">Choose Your Weapon:</label>
+        <select id="play" name="play" required>
+            <option value="">--Select--</option>
+            <option name="play" value="rock">Rock</option>
+            <option name="play" value="paper">Paper</option>
+            <option name="play" value="scissors">Scissors</option>
+        </select>
+        <br>
+        <button type="submit">Play</button>
+    </form>
+</body>
+
+</html>
